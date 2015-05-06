@@ -1,21 +1,29 @@
 source 'https://rubygems.org'
 
-gem 'evernote_oauth'
-gem 'sinatra'
+gem 'rails', '4.2.1'
 gem 'sqlite3'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'therubyracer', platforms: :ruby
 gem 'awesome_print'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'slim'
+gem 'evernote_oauth'
+gem 'omniauth-evernote'
+gem 'nokogiri'
+gem 'coderay'
+gem 'rails_autolink'
+gem 'execjs'
+gem 'bcrypt', '~> 3.1.7'
+gem 'unicorn'
+gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'pry'
-end
-
-group :test do
-  gem "rspec"
-  gem "rspec-core"
-  gem "faraday"
-  gem "rspec-expectations"
-  gem "rspec-mocks"
-  gem "rack-test"
-  gem 'factory_girl_rails'
-  gem "faker"
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end

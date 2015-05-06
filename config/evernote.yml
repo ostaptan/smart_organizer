@@ -1,0 +1,4 @@
+development:
+  consumer_key: "tanostap"
+  consumer_secret: "46723069aba31748"
+  sandbox: true
